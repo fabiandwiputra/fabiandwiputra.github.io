@@ -732,15 +732,42 @@ I also learned how to analyze engine problems such as unusual noises, oil leaks,
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Coder", "Developer", "AI Enthusiast"],
-      loop: true,
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typed.js - Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    .typing {
+      color: #007bff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>I'm <span class="typing"></span></h1>
+
+  <script>
+    var typed = new Typed('.typing', {
+      strings: ["a Coder", "a Developer", "an AI Enthusiast"],
       typeSpeed: 65,
-      backSpeed: 65
+      backSpeed: 65,
+      loop: true
     });
   </script>
 
+</body>
+</html>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
